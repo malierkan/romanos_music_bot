@@ -91,7 +91,7 @@ async def play_track(chat_id, index):
             return
 
         track = playlist[index]
-        path = os.path.join(MUSIC_FOLDER, track["isim"])
+        path = os.path.abspath(os.path.join(MUSIC_FOLDER, track["isim"]))
         print("[i] Playlist is loaded.")
 
         if not os.path.exists(path):
@@ -114,7 +114,7 @@ async def play_track(chat_id, index):
             print(f"[i] Playing: {path}")
 
             await calls.join_group_call(
-                chat_id, AudioPiped(path), stream_type=StreamType().pulse_stream
+                chat_id, AudioPiped(path), stream_type=StreamType().local_stream
             )
             await asyncio.sleep(DELAY)
 
@@ -252,7 +252,12 @@ async def ping(client, message):
 @bot.on_message(filters.command("voicecheck"))
 async def voicecheck(client, message):
     try:
-        await calls.join_group_call(message.chat.id, AudioPiped("music/Attila.mp3"))
+        await calls.join_group_call(
+            message.chat.id,
+            AudioPiped(os.path.abspath("music/Attila.mp3")),
+            stream_type=StreamType().local_stream,
+        )
+
         await message.reply("JOIN SENT")
     except Exception as e:
         await message.reply(f"ERROR: {repr(e)}")
@@ -280,4 +285,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    bot.run(main())
+    asyncio.run(main())
