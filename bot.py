@@ -113,9 +113,12 @@ async def play_track(chat_id, index):
             print("[i] Entering call...")
             print(f"[i] Playing: {path}")
 
-            await calls.join_group_call(
-                chat_id, AudioPiped(path), stream_type=StreamType().local_stream
+            await calls.play(
+                chat_id,
+                AudioPiped(path),
+                stream_type=StreamType().local_stream,
             )
+
             await asyncio.sleep(DELAY)
 
             print("[i] Call is active.")
@@ -252,10 +255,10 @@ async def ping(client, message):
 @bot.on_message(filters.command("voicecheck"))
 async def voicecheck(client, message):
     try:
-        await calls.join_group_call(
-            message.chat.id,
-            AudioPiped(os.path.abspath("music/Attila.mp3")),
-            stream_type=StreamType().local_stream,
+        path = os.path.abspath("music/Attila.mp3")
+
+        await calls.play(
+            message.chat.id, AudioPiped(path), stream_type=StreamType().local_stream
         )
 
         await message.reply("JOIN SENT")
@@ -285,4 +288,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    bot.run(main())
