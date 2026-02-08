@@ -1,12 +1,13 @@
 # Romanos Music Bot
 
-Python Version: 3.11.9
 
 ## Installation
 
-$ python -m venv .venv
+$ # 1. Ana kütüphaneleri kur
+pip install pyrogram TgCrypto python-dotenv
 
-$ .venv\Scripts\activate
+# 2. Yeni nesil ses motorunu kur (Bu genellikle sorunsuz kurulur)
+pip install ntgcalls
 
-$ pip install -r requirements.txt
-
+# 3. pytgcalls'u bağımlılıklarını kontrol etmeden "zorla" kur
+pip install pytgcalls==2.1.0 --no-deps
