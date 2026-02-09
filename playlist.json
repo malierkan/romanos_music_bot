@@ -1,486 +1,1010 @@
 [
-  { "id": 1, "name": "Kiros'un Hayalleri.mp3", "description": "", "year": -550 },
-  { "id": 2, "name": "Ben Kiros'um.mp3", "description": "", "year": -530 },
-  { "id": 3, "name": "Büyük Darius.mp3", "description": "", "year": -520 },
-  { "id": 4, "name": "Humata.mp3", "description": "", "year": -500 },
-  { "id": 5, "name": "Roma'ya Yolculuk.mp3", "description": "", "year": -394 },
+  {
+    "id": 1,
+    "name": "Kiros'un Hayalleri",
+    "lyrics": "",
+    "fileid": "",
+    "year": -550
+  },
+  {
+    "id": 2,
+    "name": "Ben Kiros'um",
+    "lyrics": "",
+    "fileid": "",
+    "year": -530
+  },
+  {
+    "id": 3,
+    "name": "Büyük Darius",
+    "lyrics": "",
+    "fileid": "",
+    "year": -520
+  },
+  {
+    "id": 4,
+    "name": "Humata",
+    "lyrics": "",
+    "fileid": "",
+    "year": -500
+  },
+  {
+    "id": 5,
+    "name": "Roma'ya Yolculuk",
+    "lyrics": "",
+    "fileid": "",
+    "year": -394
+  },
   {
     "id": 6,
-    "name": "- Büyük İskender [Alexander - Gaugamela].mp3",
-    "description": "",
+    "name": "- Büyük İskender [Alexander - Gaugamela]",
+    "lyrics": "",
+    "fileid": "",
     "year": -320
   },
-  { "id": 7, "name": "S.P.Q.R.mp3", "description": "", "year": -279 },
-  { "id": 8, "name": "Divinitus.mp3", "description": "", "year": -264 },
-  { "id": 9, "name": "Mars'ın Evlatları.mp3", "description": "", "year": -201 },
-  { "id": 10, "name": "Savaşın Gelişi.mp3", "description": "", "year": -149 },
-  { "id": 11, "name": "Tanrılar İçin.mp3", "description": "", "year": -146 },
+  {
+    "id": 7,
+    "name": "S.P.Q.R",
+    "lyrics": "",
+    "fileid": "",
+    "year": -279
+  },
+  {
+    "id": 8,
+    "name": "Divinitus",
+    "lyrics": "",
+    "fileid": "",
+    "year": -264
+  },
+  {
+    "id": 9,
+    "name": "Mars'ın Evlatları",
+    "lyrics": "",
+    "fileid": "",
+    "year": -201
+  },
+  {
+    "id": 10,
+    "name": "Savaşın Gelişi",
+    "lyrics": "",
+    "fileid": "",
+    "year": -149
+  },
+  {
+    "id": 11,
+    "name": "Tanrılar İçin",
+    "lyrics": "",
+    "fileid": "",
+    "year": -146
+  },
   {
     "id": 12,
-    "name": "Talih Güçlüden Yanadır.mp3",
-    "description": "",
+    "name": "Talih Güçlüden Yanadır",
+    "lyrics": "",
+    "fileid": "",
     "year": -88
   },
-  { "id": 13, "name": "Legio XIV Gemina.mp3", "description": "", "year": -58 },
-  { "id": 14, "name": "Lejyonlar Yürüyor.mp3", "description": "", "year": -55 },
+  {
+    "id": 13,
+    "name": "Legio XIV Gemina",
+    "lyrics": "",
+    "fileid": "",
+    "year": -58
+  },
+  {
+    "id": 14,
+    "name": "Lejyonlar Yürüyor",
+    "lyrics": "",
+    "fileid": "",
+    "year": -55
+  },
   {
     "id": 15,
-    "name": "Mars'ın Evlatları - Carrhae.mp3",
-    "description": "",
+    "name": "Mars'ın Evlatları - Carrhae",
+    "lyrics": "",
+    "fileid": "",
     "year": -53
   },
-  { "id": 16, "name": "Alea Iacta Est.mp3", "description": "", "year": -49 },
-  { "id": 17, "name": "Lejyonun Marşı.mp3", "description": "", "year": -49 },
+  {
+    "id": 16,
+    "name": "Alea Iacta Est",
+    "lyrics": "",
+    "fileid": "",
+    "year": -49
+  },
+  {
+    "id": 17,
+    "name": "Lejyonun Marşı",
+    "lyrics": "",
+    "fileid": "",
+    "year": -49
+  },
   {
     "id": 18,
-    "name": "Gaius Julius Caesar - İç Savaş.mp3",
-    "description": "",
+    "name": "Gaius Julius Caesar - İç Savaş",
+    "lyrics": "",
+    "fileid": "",
     "year": -49
   },
   {
     "id": 19,
-    "name": "Gaius Julius Caesar - Rubicon.mp3",
-    "description": "",
+    "name": "Gaius Julius Caesar - Rubicon",
+    "lyrics": "",
+    "fileid": "",
     "year": -49
   },
   {
     "id": 20,
-    "name": "Gaius Julius Caesar - Yükseliş.mp3",
-    "description": "",
+    "name": "Gaius Julius Caesar - Yükseliş",
+    "lyrics": "",
+    "fileid": "",
     "year": -45
   },
   {
     "id": 21,
-    "name": "Augustus - Gaius Octavius.mp3",
-    "description": "",
+    "name": "Augustus - Gaius Octavius",
+    "lyrics": "",
+    "fileid": "",
     "year": -44
   },
   {
     "id": 22,
-    "name": "Augustus - Cumhuriyetin Son Direnişi.mp3",
-    "description": "",
+    "name": "Augustus - Cumhuriyetin Son Direnişi",
+    "lyrics": "",
+    "fileid": "",
     "year": -27
   },
   {
     "id": 23,
-    "name": "Augustus - Tuğladan Mermere.mp3",
-    "description": "",
+    "name": "Augustus - Tuğladan Mermere",
+    "lyrics": "",
+    "fileid": "",
     "year": 1
   },
-  { "id": 24, "name": "Pişmanlık.mp3", "description": "", "year": 9 },
-  { "id": 25, "name": "Varus'a Ağıt.mp3", "description": "", "year": 9 },
+  {
+    "id": 24,
+    "name": "Pişmanlık",
+    "lyrics": "",
+    "fileid": "",
+    "year": 9
+  },
+  {
+    "id": 25,
+    "name": "Varus'a Ağıt",
+    "lyrics": "",
+    "fileid": "",
+    "year": 9
+  },
   {
     "id": 26,
-    "name": "Augustus - Toplanan Fırtına.mp3",
-    "description": "",
+    "name": "Augustus - Toplanan Fırtına",
+    "lyrics": "",
+    "fileid": "",
     "year": 14
   },
-  { "id": 27, "name": "Aetas Romana.mp3", "description": "", "year": 33 },
-  { "id": 28, "name": "Mare Internum.mp3", "description": "", "year": 117 },
-  { "id": 29, "name": "Hadrianus Duvarı.mp3", "description": "", "year": 122 },
-  { "id": 30, "name": "Imperium.mp3", "description": "", "year": 180 },
-  { "id": 31, "name": "Sasani İmparatorluğu.mp3", "description": "", "year": 224 },
-  { "id": 32, "name": "Sol Invictus.mp3", "description": "", "year": 274 },
-  { "id": 33, "name": "Zamanın Geçişi.mp3", "description": "", "year": 312 },
+  {
+    "id": 27,
+    "name": "Aetas Romana",
+    "lyrics": "",
+    "fileid": "",
+    "year": 33
+  },
+  {
+    "id": 28,
+    "name": "Mare Internum",
+    "lyrics": "",
+    "fileid": "",
+    "year": 117
+  },
+  {
+    "id": 29,
+    "name": "Hadrianus Duvarı",
+    "lyrics": "",
+    "fileid": "",
+    "year": 122
+  },
+  {
+    "id": 30,
+    "name": "Imperium",
+    "lyrics": "",
+    "fileid": "",
+    "year": 180
+  },
+  {
+    "id": 31,
+    "name": "Sasani İmparatorluğu",
+    "lyrics": "",
+    "fileid": "",
+    "year": 224
+  },
+  {
+    "id": 32,
+    "name": "Sol Invictus",
+    "lyrics": "",
+    "fileid": "",
+    "year": 274
+  },
+  {
+    "id": 33,
+    "name": "Zamanın Geçişi",
+    "lyrics": "",
+    "fileid": "",
+    "year": 312
+  },
   {
     "id": 34,
-    "name": "Konstantin'in Hayalleri.mp3",
-    "description": "",
+    "name": "Konstantin'in Hayalleri",
+    "lyrics": "",
+    "fileid": "",
     "year": 327
   },
-  { "id": 35, "name": "Şahların Şahı.mp3", "description": "", "year": 337 },
+  {
+    "id": 35,
+    "name": "Şahların Şahı",
+    "lyrics": "",
+    "fileid": "",
+    "year": 337
+  },
   {
     "id": 36,
-    "name": "Konstantinopolis - Şehirlerin Kraliçesi.mp3",
-    "description": "",
+    "name": "Konstantinopolis - Şehirlerin Kraliçesi",
+    "lyrics": "",
+    "fileid": "",
     "year": 338
   },
-  { "id": 37, "name": "İlahi 135.mp3", "description": "", "year": 363 },
-  { "id": 38, "name": "Kış Şairi.mp3", "description": "", "year": 376 },
-  { "id": 39, "name": "Yedi Tepe.mp3", "description": "", "year": 395 },
-  { "id": 40, "name": "Attila.mp3", "description": "", "year": 400 },
-  { "id": 41, "name": "Foederati.mp3", "description": "", "year": 404 },
-  { "id": 42, "name": "Ateş ve Buz - Dynamic.mp3", "description": "", "year": 407 },
-  { "id": 43, "name": "Polychronion.mp3", "description": "", "year": 408 },
-  { "id": 44, "name": "Romanın Düşüşü.mp3", "description": "", "year": 410 },
-  { "id": 45, "name": "Ode To Freo.mp3", "description": "", "year": 411 },
-  { "id": 46, "name": "Üzüm Bağı.mp3", "description": "", "year": 418 },
-  { "id": 47, "name": "Bozkırın Kemancısı.mp3", "description": "", "year": 434 },
-  { "id": 48, "name": "Mengü Köq Tengri.mp3", "description": "", "year": 441 },
-  { "id": 49, "name": "Tanrının Kırbacı.mp3", "description": "", "year": 450 },
-  { "id": 50, "name": "Batının lejyonları.mp3", "description": "", "year": 451 },
-  { "id": 51, "name": "Hesap günü.mp3", "description": "", "year": 453 },
+  {
+    "id": 37,
+    "name": "İlahi 135",
+    "lyrics": "",
+    "fileid": "",
+    "year": 363
+  },
+  {
+    "id": 38,
+    "name": "Kış Şairi",
+    "lyrics": "",
+    "fileid": "",
+    "year": 376
+  },
+  {
+    "id": 39,
+    "name": "Yedi Tepe",
+    "lyrics": "",
+    "fileid": "",
+    "year": 395
+  },
+  {
+    "id": 40,
+    "name": "Attila",
+    "lyrics": "",
+    "fileid": "CQACAgQAAyEGAATmiuH4AAPgaYkwMG_znqSkGmPuDZuXq4gRQWgAAgcfAALjm0hQcBo2WA2teyYeBA",
+    "year": 400
+  },
+  {
+    "id": 41,
+    "name": "Foederati",
+    "lyrics": "",
+    "fileid": "",
+    "year": 404
+  },
+  {
+    "id": 42,
+    "name": "Ateş ve Buz - Dynamic",
+    "lyrics": "",
+    "fileid": "",
+    "year": 407
+  },
+  {
+    "id": 43,
+    "name": "Polychronion",
+    "lyrics": "",
+    "fileid": "",
+    "year": 408
+  },
+  {
+    "id": 44,
+    "name": "Romanın Düşüşü",
+    "lyrics": "",
+    "fileid": "",
+    "year": 410
+  },
+  {
+    "id": 45,
+    "name": "Ode To Freo",
+    "lyrics": "",
+    "fileid": "",
+    "year": 411
+  },
+  {
+    "id": 46,
+    "name": "Üzüm Bağı",
+    "lyrics": "",
+    "fileid": "",
+    "year": 418
+  },
+  {
+    "id": 47,
+    "name": "Bozkırın Kemancısı",
+    "lyrics": "",
+    "fileid": "",
+    "year": 434
+  },
+  {
+    "id": 48,
+    "name": "Mengü Köq Tengri",
+    "lyrics": "",
+    "fileid": "",
+    "year": 441
+  },
+  {
+    "id": 49,
+    "name": "Tanrının Kırbacı",
+    "lyrics": "",
+    "fileid": "",
+    "year": 450
+  },
+  {
+    "id": 50,
+    "name": "Batının lejyonları",
+    "lyrics": "",
+    "fileid": "",
+    "year": 451
+  },
+  {
+    "id": 51,
+    "name": "Hesap günü",
+    "lyrics": "",
+    "fileid": "",
+    "year": 453
+  },
   {
     "id": 52,
-    "name": "Hadi Biraz Romalı Öldürelim.mp3",
-    "description": "",
+    "name": "Hadi Biraz Romalı Öldürelim",
+    "lyrics": "",
+    "fileid": "",
     "year": 455
   },
-  { "id": 53, "name": "Roma Sokakları.mp3", "description": "", "year": 456 },
-  { "id": 54, "name": "Unutulmuş Görkem.mp3", "description": "", "year": 457 },
-  { "id": 55, "name": "Ölen İmparatorluklar.mp3", "description": "", "year": 474 },
-  { "id": 56, "name": "Keltler.mp3", "description": "", "year": 475 },
-  { "id": 57, "name": "Son İmparator.mp3", "description": "", "year": 476 },
-  { "id": 58, "name": "Doğudaki Umut.mp3", "description": "", "year": 480 },
-  { "id": 59, "name": "Sıcak Kalpler.mp3", "description": "", "year": 493 },
-  { "id": 60, "name": "Sasaniler.mp3", "description": "", "year": 500 },
-  { "id": 61, "name": "Pazar.mp3", "description": "", "year": 501 },
-  { "id": 62, "name": "Doğunun Atlıları.mp3", "description": "", "year": 502 },
-  { "id": 63, "name": "Dombra.mp3", "description": "", "year": 522 },
-  { "id": 64, "name": "Saklı Kılıçlar.mp3", "description": "", "year": 524 },
+  {
+    "id": 53,
+    "name": "Roma Sokakları",
+    "lyrics": "",
+    "fileid": "",
+    "year": 456
+  },
+  {
+    "id": 54,
+    "name": "Unutulmuş Görkem",
+    "lyrics": "",
+    "fileid": "",
+    "year": 457
+  },
+  {
+    "id": 55,
+    "name": "Ölen İmparatorluklar",
+    "lyrics": "",
+    "fileid": "",
+    "year": 474
+  },
+  {
+    "id": 56,
+    "name": "Keltler",
+    "lyrics": "",
+    "fileid": "",
+    "year": 475
+  },
+  {
+    "id": 57,
+    "name": "Son İmparator",
+    "lyrics": "",
+    "fileid": "",
+    "year": 476
+  },
+  {
+    "id": 58,
+    "name": "Doğudaki Umut",
+    "lyrics": "",
+    "fileid": "",
+    "year": 480
+  },
+  {
+    "id": 59,
+    "name": "Sıcak Kalpler",
+    "lyrics": "",
+    "fileid": "",
+    "year": 493
+  },
+  {
+    "id": 60,
+    "name": "Sasaniler",
+    "lyrics": "",
+    "fileid": "",
+    "year": 500
+  },
+  {
+    "id": 61,
+    "name": "Pazar",
+    "lyrics": "",
+    "fileid": "",
+    "year": 501
+  },
+  {
+    "id": 62,
+    "name": "Doğunun Atlıları",
+    "lyrics": "",
+    "fileid": "",
+    "year": 502
+  },
+  {
+    "id": 63,
+    "name": "Dombra",
+    "lyrics": "",
+    "fileid": "",
+    "year": 522
+  },
+  {
+    "id": 64,
+    "name": "Saklı Kılıçlar",
+    "lyrics": "",
+    "fileid": "",
+    "year": 524
+  },
   {
     "id": 65,
-    "name": "Theodora'nın Hayalleri.mp3",
-    "description": "",
+    "name": "Theodora'nın Hayalleri",
+    "lyrics": "",
+    "fileid": "",
     "year": 525
   },
   {
     "id": 66,
-    "name": "Justinianus - Kraliçem.mp3",
-    "description": "",
+    "name": "Justinianus - Kraliçem",
+    "lyrics": "",
+    "fileid": "",
     "year": 527
   },
   {
     "id": 67,
-    "name": "Justinianus - Reformlar.mp3",
-    "description": "",
+    "name": "Justinianus - Reformlar",
+    "lyrics": "",
+    "fileid": "",
     "year": 529
   },
   {
     "id": 68,
-    "name": "Justinianus - Üzerimdeki gölgeler.mp3",
-    "description": "",
+    "name": "Justinianus - Üzerimdeki gölgeler",
+    "lyrics": "",
+    "fileid": "",
     "year": 532
   },
   {
     "id": 69,
-    "name": "Justinianus - renovatio imperii.mp3",
-    "description": "",
+    "name": "Justinianus - renovatio imperii",
+    "lyrics": "",
+    "fileid": "",
     "year": 533
   },
-  { "id": 70, "name": "Justinianus - General.mp3", "description": "", "year": 536 },
+  {
+    "id": 70,
+    "name": "Justinianus - General",
+    "lyrics": "",
+    "fileid": "",
+    "year": 536
+  },
   {
     "id": 71,
-    "name": "Justinianus - Belisarius'un tacı.mp3",
-    "description": "",
+    "name": "Justinianus - Belisarius'un tacı",
+    "lyrics": "",
+    "fileid": "",
     "year": 539
   },
   {
     "id": 72,
-    "name": "Justinianus - Dünyanın iki gözü.mp3",
-    "description": "",
+    "name": "Justinianus - Dünyanın iki gözü",
+    "lyrics": "",
+    "fileid": "",
     "year": 540
   },
   {
     "id": 73,
-    "name": "Theodora Roma'nın İmparatoriçesi.mp3",
-    "description": "",
+    "name": "Theodora Roma'nın İmparatoriçesi",
+    "lyrics": "",
+    "fileid": "",
     "year": 548
   },
-  { "id": 74, "name": "Çölün Kehanetleri.mp3", "description": "", "year": 571 },
-  { "id": 75, "name": "Kutsal Ateşler.mp3", "description": "", "year": 601 },
+  {
+    "id": 74,
+    "name": "Çölün Kehanetleri",
+    "lyrics": "",
+    "fileid": "",
+    "year": 571
+  },
+  {
+    "id": 75,
+    "name": "Kutsal Ateşler",
+    "lyrics": "",
+    "fileid": "",
+    "year": 601
+  },
   {
     "id": 76,
-    "name": "Ahura Mazda'nın Askerleri.mp3",
-    "description": "",
+    "name": "Ahura Mazda'nın Askerleri",
+    "lyrics": "",
+    "fileid": "",
     "year": 602
   },
   {
     "id": 77,
-    "name": "Ninova - Romalıların İmparatorluğu.mp3",
-    "description": "",
+    "name": "Ninova - Romalıların İmparatorluğu",
+    "lyrics": "",
+    "fileid": "",
     "year": 603
   },
   {
     "id": 78,
-    "name": "Ninova - İranlıların İmparatorluğu.mp3",
-    "description": "",
+    "name": "Ninova - İranlıların İmparatorluğu",
+    "lyrics": "",
+    "fileid": "",
     "year": 610
   },
-  { "id": 79, "name": "Ninova - Din Adamları.mp3", "description": "", "year": 620 },
+  {
+    "id": 79,
+    "name": "Ninova - Din Adamları",
+    "lyrics": "",
+    "fileid": "",
+    "year": 620
+  },
   {
     "id": 80,
-    "name": "Ninova - Savaş Başlıyor.mp3",
-    "description": "",
+    "name": "Ninova - Savaş Başlıyor",
+    "lyrics": "",
+    "fileid": "",
     "year": 627
   },
-  { "id": 81, "name": "Yanan Kum.mp3", "description": "", "year": 629 },
-  { "id": 82, "name": "Kum Denizi.mp3", "description": "", "year": 632 },
-  { "id": 83, "name": "Kızıl At.mp3", "description": "", "year": 634 },
-  { "id": 84, "name": "Boş Taht.mp3", "description": "", "year": 661 },
+  {
+    "id": 81,
+    "name": "Yanan Kum",
+    "lyrics": "",
+    "fileid": "",
+    "year": 629
+  },
+  {
+    "id": 82,
+    "name": "Kum Denizi",
+    "lyrics": "",
+    "fileid": "",
+    "year": 632
+  },
+  {
+    "id": 83,
+    "name": "Kızıl At",
+    "lyrics": "",
+    "fileid": "",
+    "year": 634
+  },
+  {
+    "id": 84,
+    "name": "Boş Taht",
+    "lyrics": "",
+    "fileid": "",
+    "year": 661
+  },
   {
     "id": 85,
-    "name": "Tanrı'nın Şampiyonları.mp3",
-    "description": "",
+    "name": "Tanrı'nın Şampiyonları",
+    "lyrics": "",
+    "fileid": "",
     "year": 717
   },
-  { "id": 86, "name": "Tonyukuk.mp3", "description": "", "year": 720 },
-  { "id": 87, "name": "Toquz Oyuz.mp3", "description": "", "year": 743 },
-  { "id": 88, "name": "Hikanatoi.mp3", "description": "", "year": 867 },
+  {
+    "id": 86,
+    "name": "Tonyukuk",
+    "lyrics": "",
+    "fileid": "",
+    "year": 720
+  },
+  {
+    "id": 87,
+    "name": "Toquz Oyuz",
+    "lyrics": "",
+    "fileid": "",
+    "year": 743
+  },
+  {
+    "id": 88,
+    "name": "Hikanatoi",
+    "lyrics": "",
+    "fileid": "",
+    "year": 867
+  },
   {
     "id": 89,
-    "name": "Steingerðr'un Güzelliği.mp3",
-    "description": "",
+    "name": "Steingerðr'un Güzelliği",
+    "lyrics": "",
+    "fileid": "",
     "year": 900
   },
   {
     "id": 90,
-    "name": "Vareg Muhafızı - Giriş.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Giriş",
+    "lyrics": "",
+    "fileid": "",
     "year": 907
   },
   {
     "id": 91,
-    "name": "Vareg Muhafızı - Benim Astridr'im.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Benim Astridr'im",
+    "lyrics": "",
+    "fileid": "",
     "year": 910
   },
   {
     "id": 92,
-    "name": "Vareg Muhafızı - Dünyaya Doğru.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Dünyaya Doğru",
+    "lyrics": "",
+    "fileid": "",
     "year": 911
   },
   {
     "id": 93,
-    "name": "Vareg Muhafızı - Slavların Nehri.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Slavların Nehri",
+    "lyrics": "",
+    "fileid": "",
     "year": 912
   },
   {
     "id": 94,
-    "name": "Vareg Muhafızı - Miklagardr.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Miklagardr",
+    "lyrics": "",
+    "fileid": "",
     "year": 944
   },
   {
     "id": 95,
-    "name": "Vareg Muhafızı - Kuzgun Saçlı Genç Kız.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Kuzgun Saçlı Genç Kız",
+    "lyrics": "",
+    "fileid": "",
     "year": 945
   },
   {
     "id": 96,
-    "name": "Vareg Muhafızı - İmparator.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - İmparator",
+    "lyrics": "",
+    "fileid": "",
     "year": 987
   },
   {
     "id": 97,
-    "name": "Vareg Muhafızı - Yeni İnancım.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Yeni İnancım",
+    "lyrics": "",
+    "fileid": "",
     "year": 988
   },
   {
     "id": 98,
-    "name": "Vareg Muhafızı - Seçim.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Seçim",
+    "lyrics": "",
+    "fileid": "",
     "year": 990
   },
   {
     "id": 99,
-    "name": "Vareg Muhafızı - Gürcistan'a Doğru.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Gürcistan'a Doğru",
+    "lyrics": "",
+    "fileid": "",
     "year": 1000
   },
   {
     "id": 100,
-    "name": "Vareg Muhafızı - Normanlar.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Normanlar",
+    "lyrics": "",
+    "fileid": "",
     "year": 1018
   },
   {
     "id": 101,
-    "name": "Vareg Muhafızı - 2. Basil'in Ölümü.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - 2. Basil'in Ölümü",
+    "lyrics": "",
+    "fileid": "",
     "year": 1025
   },
   {
     "id": 102,
-    "name": "Vareg Muhafızı - Ruslara Karşı.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Ruslara Karşı",
+    "lyrics": "",
+    "fileid": "",
     "year": 1030
   },
   {
     "id": 103,
-    "name": "Vareg Muhafızı - Slavların Öfkesi.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Slavların Öfkesi",
+    "lyrics": "",
+    "fileid": "",
     "year": 1042
   },
   {
     "id": 104,
-    "name": "Vareg Muhafızı - Vareglerin İntikamı.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Vareglerin İntikamı",
+    "lyrics": "",
+    "fileid": "",
     "year": 1043
   },
   {
     "id": 105,
-    "name": "Vareg Muhafızı - Savaş Hayatı.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Savaş Hayatı",
+    "lyrics": "",
+    "fileid": "",
     "year": 1057
   },
   {
     "id": 106,
-    "name": "Vareg Muhafızı - Sigurdson'a Veda.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Sigurdson'a Veda",
+    "lyrics": "",
+    "fileid": "",
     "year": 1066
   },
   {
     "id": 107,
-    "name": "Vareg Muhafızı - Zamanın Taksimleri.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Zamanın Taksimleri",
+    "lyrics": "",
+    "fileid": "",
     "year": 1067
   },
-  { "id": 108, "name": "Malazgirt - Romanos.mp3", "description": "", "year": 1068 },
+  {
+    "id": 108,
+    "name": "Malazgirt - Romanos",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1068
+  },
   {
     "id": 109,
-    "name": "Vareg Muhafızı - Astridr'in Ağıdı.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Astridr'in Ağıdı",
+    "lyrics": "",
+    "fileid": "",
     "year": 1070
   },
   {
     "id": 110,
-    "name": "Malazgirt - Alp Arslan.mp3",
-    "description": "",
+    "name": "Malazgirt - Alp Arslan",
+    "lyrics": "",
+    "fileid": "",
     "year": 1070
   },
   {
     "id": 111,
-    "name": "Malazgirt - Hikanatoi.mp3",
-    "description": "",
+    "name": "Malazgirt - Hikanatoi",
+    "lyrics": "",
+    "fileid": "",
     "year": 1071
   },
   {
     "id": 112,
-    "name": "Malazgirt - Aslan Kükrüyor.mp3",
-    "description": "",
+    "name": "Malazgirt - Aslan Kükrüyor",
+    "lyrics": "",
+    "fileid": "",
     "year": 1071
   },
   {
     "id": 113,
-    "name": "Vareg Muhafızı - Türklere Karşı.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Türklere Karşı",
+    "lyrics": "",
+    "fileid": "",
     "year": 1071
   },
   {
     "id": 114,
-    "name": "Vareg Muhafızı - 6579.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - 6579",
+    "lyrics": "",
+    "fileid": "",
     "year": 1071
   },
   {
     "id": 115,
-    "name": "Vareg Muhafızı - Malazgirt.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Malazgirt",
+    "lyrics": "",
+    "fileid": "",
     "year": 1071
   },
   {
     "id": 116,
-    "name": "Vareg Muhafızı - Son Direniş.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Son Direniş",
+    "lyrics": "",
+    "fileid": "",
     "year": 1071
   },
   {
     "id": 117,
-    "name": "Vareg Muhafızı - Ölüm.mp3",
-    "description": "",
+    "name": "Vareg Muhafızı - Ölüm",
+    "lyrics": "",
+    "fileid": "",
     "year": 1071
   },
-  { "id": 118, "name": "Selçuklar.mp3", "description": "", "year": 1077 },
-  { "id": 119, "name": "Orta Çağ.mp3", "description": "", "year": 1095 },
   {
-    "id": 120,
-    "name": "Şovalye - Doğudan Sesleniş.mp3",
-    "description": "",
+    "id": 118,
+    "name": "Selçuklar",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1077
+  },
+  {
+    "id": 119,
+    "name": "Orta Çağ",
+    "lyrics": "",
+    "fileid": "",
     "year": 1095
   },
-  { "id": 121, "name": "Şovalye - Çağrı.mp3", "description": "", "year": 1095 },
+  {
+    "id": 120,
+    "name": "Şovalye - Doğudan Sesleniş",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1095
+  },
+  {
+    "id": 121,
+    "name": "Şovalye - Çağrı",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1095
+  },
   {
     "id": 122,
-    "name": "Şovalye - Rum Diyarı.mp3",
-    "description": "",
+    "name": "Şovalye - Rum Diyarı",
+    "lyrics": "",
+    "fileid": "",
     "year": 1096
   },
-  { "id": 123, "name": "Şovalye - İznik.mp3", "description": "", "year": 1097 },
+  {
+    "id": 123,
+    "name": "Şovalye - İznik",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1097
+  },
   {
     "id": 124,
-    "name": "Şovalye - Uzun Yürüyüş.mp3",
-    "description": "",
+    "name": "Şovalye - Uzun Yürüyüş",
+    "lyrics": "",
+    "fileid": "",
     "year": 1098
   },
   {
     "id": 125,
-    "name": "Şovalye - Kutsal Toprak.mp3",
-    "description": "",
+    "name": "Şovalye - Kutsal Toprak",
+    "lyrics": "",
+    "fileid": "",
     "year": 1099
   },
   {
     "id": 126,
-    "name": "Şovalye - Kudüs Savaşı.mp3",
-    "description": "",
+    "name": "Şovalye - Kudüs Savaşı",
+    "lyrics": "",
+    "fileid": "",
     "year": 1099
   },
   {
     "id": 127,
-    "name": "Şovalye - Şehir Düşüyor.mp3",
-    "description": "",
+    "name": "Şovalye - Şehir Düşüyor",
+    "lyrics": "",
+    "fileid": "",
     "year": 1099
   },
   {
     "id": 128,
-    "name": "Şovalye - Haçlı Seferleri Başladı.mp3",
-    "description": "",
+    "name": "Şovalye - Haçlı Seferleri Başladı",
+    "lyrics": "",
+    "fileid": "",
     "year": 1100
   },
   {
     "id": 129,
-    "name": "Hepimiz Tanrı Önünde Biriz.mp3",
-    "description": "",
+    "name": "Hepimiz Tanrı Önünde Biriz",
+    "lyrics": "",
+    "fileid": "",
     "year": 1147
   },
   {
     "id": 130,
-    "name": "Orta Çağ İngiliz Ambiyansı.mp3",
-    "description": "",
+    "name": "Orta Çağ İngiliz Ambiyansı",
+    "lyrics": "",
+    "fileid": "",
     "year": 1200
   },
-  { "id": 131, "name": "Vareg Muhafızları.mp3", "description": "", "year": 1204 },
-  { "id": 132, "name": "Moğollar.mp3", "description": "", "year": 1241 },
+  {
+    "id": 131,
+    "name": "Vareg Muhafızları",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1204
+  },
+  {
+    "id": 132,
+    "name": "Moğollar",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1241
+  },
   {
     "id": 133,
-    "name": "Yeniçeri - Annemin Müziği.mp3",
-    "description": "",
+    "name": "Yeniçeri - Annemin Müziği",
+    "lyrics": "",
+    "fileid": "",
     "year": 1360
   },
   {
     "id": 134,
-    "name": "Yeniçeri - İmparatora Üç Kez Lanet Olsun.mp3",
-    "description": "",
+    "name": "Yeniçeri - İmparatora Üç Kez Lanet Olsun",
+    "lyrics": "",
+    "fileid": "",
     "year": 1365
   },
-  { "id": 135, "name": "Yeniçeri - Tevhid.mp3", "description": "", "year": 1370 },
-  { "id": 136, "name": "Yeniçeri - Yemin.mp3", "description": "", "year": 1375 },
-  { "id": 137, "name": "Yeniçeri - Mehter.mp3", "description": "", "year": 1380 },
+  {
+    "id": 135,
+    "name": "Yeniçeri - Tevhid",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1370
+  },
+  {
+    "id": 136,
+    "name": "Yeniçeri - Yemin",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1375
+  },
+  {
+    "id": 137,
+    "name": "Yeniçeri - Mehter",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1380
+  },
   {
     "id": 138,
-    "name": "Yeniçeri - Ben Kimim.mp3",
-    "description": "",
+    "name": "Yeniçeri - Ben Kimim",
+    "lyrics": "",
+    "fileid": "",
     "year": 1390
   },
-  { "id": 139, "name": "Yeniçeri - Zaman.mp3", "description": "", "year": 1400 },
-  { "id": 140, "name": "Yeniçeri - Ölüm.mp3", "description": "", "year": 1402 },
+  {
+    "id": 139,
+    "name": "Yeniçeri - Zaman",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1400
+  },
+  {
+    "id": 140,
+    "name": "Yeniçeri - Ölüm",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1402
+  },
   {
     "id": 141,
-    "name": "Konstantinopolis'in Düşüşü.mp3",
-    "description": "",
+    "name": "Konstantinopolis'in Düşüşü",
+    "lyrics": "",
+    "fileid": "",
     "year": 1453
   },
-  { "id": 142, "name": "Epirus'taki Krallar.mp3", "description": "", "year": 1481 },
-  { "id": 143, "name": "Ceddin Deden.mp3", "description": "", "year": 1566 },
+  {
+    "id": 142,
+    "name": "Epirus'taki Krallar",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1481
+  },
+  {
+    "id": 143,
+    "name": "Ceddin Deden",
+    "lyrics": "",
+    "fileid": "",
+    "year": 1566
+  },
   {
     "id": 144,
-    "name": "Osmanlı Musikisi - Hasret.mp3",
-    "description": "",
+    "name": "Osmanlı Musikisi - Hasret",
+    "lyrics": "",
+    "fileid": "",
     "year": 1808
   }
 ]
