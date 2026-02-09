@@ -133,7 +133,7 @@ async def start_cmd(client, message):
     log("📥 Komut: /baslat")
     await message.delete()
     save_current_id(1)
-    await play_logic(client, message, 30)
+    await play_logic(client, message, 1)
 
 
 # --- YENİ KOMUTLAR: ÖNCEKİ, SONRAKİ, DURDUR, DURAKLAT ---
