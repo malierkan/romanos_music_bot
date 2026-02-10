@@ -157,11 +157,7 @@ async def handle_playback(client, message):
 
 
 @assistant.on_message(
-    filters.command(
-        ["stop", "pause", "resume", "next", "prev", "list"],
-        prefixes=["/", f"/{MY_BOT}@"],
-    )
-    & filters.group
+    filters.command(["stop", "pause", "resume", "next", "prev", "list"]) & filters.group
 )
 async def control_commands(client, message):
     cmd = message.command[0].lower().split("@")[0]
@@ -170,19 +166,19 @@ async def control_commands(client, message):
     playlist = get_playlist()
 
     try:
-        if cmd == "stop":
+        if cmd == "stop" or f"/stop@{MY_BOT}":
             is_auto_playing[chat_id] = False
             await call_py.leave_group_call(chat_id)
 
-        elif cmd == "pause":
+        elif cmd == "pause" or f"/pause@{MY_BOT}":
             await call_py.pause_stream(chat_id)
             await message.reply("⏸ **Duraklatıldı.**")
 
-        elif cmd == "resume":
+        elif cmd == "resume" or f"/resume@{MY_BOT}":
             await call_py.resume_stream(chat_id)
             await message.reply("▶️ **Devam ediyor.**")
 
-        elif cmd == "next":
+        elif cmd == "next" or f"/next@{MY_BOT}":
             next_idx = current_song_index.get(chat_id, -1) + 1
             if next_idx < len(playlist):
                 current_song_index[chat_id] = next_idx
@@ -190,13 +186,13 @@ async def control_commands(client, message):
             else:
                 await message.reply("🏁 Liste bitti.")
 
-        elif cmd == "prev":
+        elif cmd == "prev" or f"/prev@{MY_BOT}":
             prev_idx = current_song_index.get(chat_id, 0) - 1
             if prev_idx >= 0:
                 current_song_index[chat_id] = prev_idx
                 await play_engine(chat_id, playlist[prev_idx], message)
 
-        elif cmd == "list":
+        elif cmd == "list" or f"/list@{MY_BOT}":
             text = "📂 **Müzik Listesi**\n" + "⎯" * 10 + "\n"
             for i, s in enumerate(playlist):
                 mark = "▶️" if current_song_index.get(chat_id) == i else "▫️"
