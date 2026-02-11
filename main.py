@@ -83,8 +83,35 @@ async def play_engine(chat_id, song, messenger):
     # Başlangıçta info_text'i boş tanımlayalım ki finally bloğu hata vermesin
     info_text = ""
 
+    # --- DOSYA KONTROLÜ VE OTOMATİK GEÇİŞ ---
     if not os.path.exists(file_path):
+        error_msg = f"❌ **Dosya bulunamadı:** `{song['name']}`\n⏭ Sıradaki şarkıya geçiliyor..."
         log(f"Dosya Bulunamadı: {file_path}")
+
+        # Kullanıcıyı bilgilendir
+        try:
+            if hasattr(messenger, "reply"):
+                await messenger.reply(error_msg)
+            else:
+                await messenger.send_message(chat_id, error_msg)
+        except Exception as e:
+            log(f"Hata mesajı gönderilemedi: {e}")
+
+        # Eğer otomatik listedeysek bir sonrakini tetikle
+        if is_auto_playing.get(chat_id):
+            playlist = get_playlist()
+            next_idx = current_song_index.get(chat_id, 0) + 1
+
+            if next_idx < len(playlist):
+                current_song_index[chat_id] = next_idx
+                # Küçük bir gecikme ekleyelim ki mesajlar karışmasın
+                await asyncio.sleep(2)
+                # Kendi kendini bir sonraki şarkı için tekrar çağırır
+                return await play_engine(chat_id, playlist[next_idx], messenger)
+            else:
+                is_auto_playing[chat_id] = False
+                log("Dosya bulunamadı ve liste bitti.")
+
         return False
 
     try:
